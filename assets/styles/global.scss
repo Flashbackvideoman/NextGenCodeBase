@@ -1,0 +1,71 @@
+// Scss Document
+
+// Global Variables
+$ngwcp_primary1: #105d8e;
+$ngwcp_primary2: #5bb6c1;
+$ngwcp_primary3: #0b3f60; //#0c5274;
+//$ngwcp_primary4: #008294;
+$ngwcp_primary4: #006C7D; 
+
+$ngwcp_secondary1: #000000;
+$ngwcp_secondary2: #c5d4c8;
+$ngwcp_secondary3: #86afb5;
+//this color might have need to be changed for 508 compliency
+$ngwcp_secondary4: #008A1D;
+$ngwcp_secondary4lt: #08691c;
+
+
+$ngwcp_neutral1: #333333;
+$ngwcp_neutral2: #ffffff;
+
+$ngwcp_neutral_gray_lt: #f3f3f3;
+$ngwcp_neutral_gray_lt2: #fffcfc;
+$ngwcp_neutral_gray_md: #d9d9d9;
+$ngwcp_neutral_gray_md2: #f5f5f5;
+
+$ngwcp_groupsbkg: #e5e5e5e5;
+$ngwcp_background: #eff4f7;
+
+$ngwcp_green_lt: #D8FFD8;
+$ngwcp_blue_lt: #D8FFFF;
+$ngwcp_blue_md: #8BE3ED;
+
+$ngwcp_red_dark1: #922222;
+$ngwcp_red_dark2: #691818;//#811d1d;#550000
+
+$ngwcp_yellow_dark1: #dfc900;
+$ngwcp_yellow_dark2: #9f9e08;
+
+$color-transparent: rgba(0, 0, 0, 0);
+$color-blue: #0077ff;
+
+// Global Variables
+$black: #000000;
+
+$white: #ffffff;
+
+$mainFontColor: #fff;
+$staticText: #fff9a7;
+$activeColor: #90caf9;
+$activeTextColor: #13212e;
+$inactiveColor: #54718e;
+
+$light: $ngwcp_secondary2;
+$dark: $ngwcp_secondary1;
+
+@layer components {
+    .white-tall-content-box {
+        @apply w-full px-1 py-2 text-left bg-white rounded-[10px] h-screen-inner;
+    }
+    .hr {
+        @apply w-full h-[1px] bg-gray-md;
+    }
+    .progressTable td:nth-child(2) { 
+        @apply ptype whitespace-nowrap c-blue underline; 
+    }
+    .progressTable td:nth-child(2):hover { 
+        @apply c-blue-primary1 cursor-pointer; 
+    }
+}
+
+// Typography & Icons
